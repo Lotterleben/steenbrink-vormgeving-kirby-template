@@ -22,7 +22,7 @@
       <a href="<?= $album->url() ?>">
         <figure>
           <?php if ($cover = $album->cover()): ?>
-          <?= $cover->crop(800, 1000) ?>
+          <?= $cover->crop(500, 700) ?>
           <?php endif ?>
           <figcaption><?= $album->title() ?></figcaption>
         </figure>

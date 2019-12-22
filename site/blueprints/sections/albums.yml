@@ -13,4 +13,4 @@ empty: No albums yet
 image:
   query: page.cover
   cover: true
-  ratio: 5/4
+  ratio: 5/7
