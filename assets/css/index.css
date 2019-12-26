@@ -98,11 +98,18 @@ main {
 }
 
 .intro h1 {
+    text-align: left;
     position: relative;
     margin-bottom: 1rem;
     font-weight: 900;
     font-size: calc(1vw + 2rem);
     z-index: 1;
+}
+
+.intro p {
+    text-align: left;
+    /* TODO: also subtract width of white column */
+    width: calc(var(--content-width) /3);
 }
 
 .tags {
