@@ -1,5 +1,6 @@
 :root {
     --content-width: 65rem;
+    --grid-gap-sz: 1rem;
 }
 
 *,
@@ -98,11 +99,18 @@ main {
 }
 
 .intro h1 {
+    text-align: left;
     position: relative;
     margin-bottom: 1rem;
-    font-weight: 900;
-    font-size: calc(1vw + 2rem);
+    font-weight: 700;
+    font-size: .875rem;
     z-index: 1;
+}
+
+.intro p {
+    text-align: left;
+    /* TODO: flexibly adapt to numbers of coluns?*/
+    width: calc((var(--content-width) / 3) - var(--grid-gap-sz));
 }
 
 .tags {

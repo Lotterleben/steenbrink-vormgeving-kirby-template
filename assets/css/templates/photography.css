@@ -1,7 +1,7 @@
 .albums {
     display: grid;
     list-style: none;
-    gap: 1rem;
+    gap: var(--grid-gap-sz);
     line-height: 0;
 }
 
@@ -14,9 +14,6 @@
 @media screen and (min-width: 60em) {
     .albums {
         grid-template-columns: repeat(3, 1fr);
-    }
-    .albums[data-even] {
-        grid-template-columns: repeat(4, 1fr);
     }
 }
 
