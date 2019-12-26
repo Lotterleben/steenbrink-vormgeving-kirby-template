@@ -21,7 +21,7 @@
       // before we use the `crop()` file method, we make sure to check if the file exists to prevent errors
       if ($cover = $page->cover()): ?>
       <figure class="album-cover">
-        <?= $cover->crop(1024, 768) ?>
+        <?= $cover->crop(1191, 842) ?>
         <figcaption>
           <!-- The `or()` method is great to provide a fallback value if a field is empty -->
           <h1><?= $page->headline()->or($page->title()) ?></h1>
@@ -43,7 +43,7 @@
       <li>
         <figure>
           <a href="<?= $image->link()->or($image->url()) ?>">
-            <?= $image->crop(800, 1000) ?>
+            <?= $image->crop(500, 700) ?>
           </a>
         </figure>
       </li>
