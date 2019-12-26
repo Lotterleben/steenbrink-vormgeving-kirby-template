@@ -15,9 +15,6 @@
     .albums {
         grid-template-columns: repeat(3, 1fr);
     }
-    .albums[data-even] {
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
 
 .albums li {
