@@ -1,7 +1,7 @@
 .albums {
     display: grid;
     list-style: none;
-    gap: 1rem;
+    gap: var(--grid-gap-sz);
     line-height: 0;
 }
 
