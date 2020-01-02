@@ -13,14 +13,8 @@ options:
 columns:
   # The first column has one section for the subpages of the `projektsammlung` page in card layout
   # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
-  - width: 1/2
+  - width: 1
     sections:
-      albums: sections/albums
-
-  # The second column has two sections, `notes` and `pages`
-  - width: 1/2
-    sections:
-
       # The `pages` pages section shows other main pages of the site
       # Using the `templates` option, we limit which types of pages are shown
       # Using the `create` option, we limit the type of page that can be created when a new page is created
@@ -33,3 +27,7 @@ columns:
           - about
           - home
           - default
+
+      # section for the subpages of the `projektsammlung` page in card layout
+      # reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+      albums: sections/albums
