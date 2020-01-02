@@ -59,7 +59,13 @@ img {
 .header .logo {
     display: block;
     margin-bottom: 1.5rem;
-    padding: .5rem 0;
+    padding: .37rem 0;
+    background: url(../../logos/Steenbrink_1zlg.svg);
+    /*remove alt text*/
+    text-indent: -9999px;
+    width: 16rem;
+    height: .100rem;
+    background-size: contain;
 }
 
 .header {
@@ -73,10 +79,11 @@ img {
 }
 
 .menu a[aria-current] {
+    /* Defines the line under the currently selected menu item. */
     border-bottom: 2px solid #000;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 45rem) {
     .header .logo {
         margin-bottom: 0;
     }
