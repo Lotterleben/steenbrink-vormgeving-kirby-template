@@ -1,0 +1,5 @@
+# ignore subfolders with content
+1_*/*/
+
+#ignore content
+*/*.jpg*
