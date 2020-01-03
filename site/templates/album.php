@@ -13,22 +13,9 @@
 <?php snippet('header') ?>
 
 <main class="album">
-  <article>
+<?php snippet('intro') ?>
 
-    <header>
-      <?php 
-      // in this line of code, `cover` does not call the field of the same name but the `cover` method defined in the page model
-      // before we use the `crop()` file method, we make sure to check if the file exists to prevent errors
-      if ($cover = $page->cover()): ?>
-      <figure class="album-cover">
-        <?= $cover->crop(1191, 842) ?>
-        <figcaption>
-          <!-- The `or()` method is great to provide a fallback value if a field is empty -->
-          <h1><?= $page->headline()->or($page->title()) ?></h1>
-        </figcaption>
-      </figure>
-      <?php endif ?>
-    </header>
+<article>
 
     <div class="album-text text">
       <?= $page->description()->kt() ?>
