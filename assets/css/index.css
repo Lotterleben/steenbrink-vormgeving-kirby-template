@@ -83,7 +83,7 @@ img {
     border-bottom: 2px solid #000;
 }
 
-@media screen and (min-width: 45rem) {
+@media screen and (min-width: 60rem) {
     .header .logo {
         margin-bottom: 0;
     }
