@@ -13,14 +13,8 @@ options:
 columns:
   # The first column has one section for the subpages of the `projektsammlung` page in card layout
   # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
-  - width: 1/2
+  - width: 1
     sections:
-      albums: sections/albums
-
-  # The second column has two sections, `notes` and `pages`
-  - width: 1/2
-    sections:
-
       # The `pages` pages section shows other main pages of the site
       # Using the `templates` option, we limit which types of pages are shown
       # Using the `create` option, we limit the type of page that can be created when a new page is created
@@ -28,8 +22,23 @@ columns:
       # Since the error page's blueprint is set to `read: false`, it wouldn't show up here even if you added the error blueprint to the templates list
       pages:
         type: pages
+        headline: Textseiten
         create: default
         templates:
           - about
           - home
           - default
+
+      # section for the subpages of the `projektsammlung` page in card layout
+      # reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+      ausstellungen:
+        extends: sections/albums
+        headline: Ausstellungen
+        # the name of the page's folder in content/, minus the <number>_ prefix (if any)
+        parent: kirby.page("ausstellungen")
+
+
+      buehne:
+        extends: sections/albums
+        headline: Bühne
+        parent: kirby.page("buehne")
