@@ -4,7 +4,7 @@
 # More about pages sections: https://getkirby.com/docs/reference/panel/sections/pages
 type: pages
 headline: Ausstellungen
-parent: kirby.page("projektsammlung")
+parent: kirby.page("ausstellungen")
 size: tiny
 info: "{{ page.images.count }} image(s)"
 layout: cards
