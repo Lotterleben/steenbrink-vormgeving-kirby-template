@@ -48,7 +48,6 @@
     align-items: center;
     margin: 0 auto;
     grid-gap: 1rem;
-    max-width: calc(var(--content-width) - 15rem);
     justify-content: center;
 }
 
