@@ -4,12 +4,13 @@
 # More about pages sections: https://getkirby.com/docs/reference/panel/sections/pages
 type: pages
 headline: Ausstellungen
-parent: kirby.page("ausstellungen")
+# note: when extending this blueprint, you need to set the parent, like so:
+# parent: kirby.page("<name of the page's folder in content/, minus the <number>_ prefix (if any)>")
 size: tiny
 info: "{{ page.images.count }} image(s)"
 layout: cards
 template: album
-empty: No albums yet
+empty: Bisher keine Alben angelegt
 image:
   query: page.cover
   cover: true

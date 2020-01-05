@@ -30,4 +30,14 @@ columns:
 
       # section for the subpages of the `projektsammlung` page in card layout
       # reuses the pages section defined in `/site/blueprints/sections/albums.yml`
-      albums: sections/albums
+      ausstellungen:
+        extends: sections/albums
+        headline: Ausstellungen
+        # the name of the page's folder in content/, minus the <number>_ prefix (if any)
+        parent: kirby.page("ausstellungen")
+
+
+      buehne:
+        extends: sections/albums
+        headline: Bühne
+        parent: kirby.page("buehne")
