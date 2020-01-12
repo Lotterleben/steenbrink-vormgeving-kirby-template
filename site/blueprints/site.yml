@@ -38,7 +38,7 @@ columns:
         parent: kirby.page("ausstellungen")
 
 
-      buehne:
+      konzerte:
         extends: sections/albums
-        headline: Bühne
-        parent: kirby.page("buehne")
+        headline: Konzerte
+        parent: kirby.page("konzerte")
