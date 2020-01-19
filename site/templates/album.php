@@ -17,14 +17,6 @@
 
 <article>
 
-    <div class="album-text text">
-      <?= $page->description()->kt() ?>
-
-      <?php if ($page->tags()->isNotEmpty()): ?>
-      <p class="album-tags tags"><?= $page->tags() ?></p>
-      <?php endif ?>
-    </div>
-
     <ul class="album-gallery"<?= attr(['data-even' => $gallery->isEven(), 'data-count' => $gallery->count()], ' ') ?>>
       <?php foreach ($gallery as $image): ?>
       <li>

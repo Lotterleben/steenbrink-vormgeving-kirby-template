@@ -36,12 +36,6 @@
     font-size: 3rem;
 }
 
-.album-text p {
-    text-align: left;
-    /* TODO: flexibly adapt to numbers of coluns?*/
-    width: calc((var(--content-width) / 3) - var(--grid-gap-sz));
-}
-
 .album-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
