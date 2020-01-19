@@ -36,19 +36,13 @@
     font-size: 3rem;
 }
 
-.album-text {
-    max-width: 40rem;
-    margin: 0 auto 6rem;
-    text-align: center;
-}
-
 .album-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     margin: 0 auto;
     grid-gap: 1rem;
-    max-width: calc(var(--content-width) - 15rem);
+    max-width: var(--content-width);
     justify-content: center;
 }
 

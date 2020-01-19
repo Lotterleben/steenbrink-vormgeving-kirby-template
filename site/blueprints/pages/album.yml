@@ -40,6 +40,6 @@ columns:
         multiple: false
       headline:
         type: text
-      description:
+      text:
         type: textarea
       tags: true
