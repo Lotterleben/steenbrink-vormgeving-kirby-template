@@ -48,6 +48,7 @@
     align-items: center;
     margin: 0 auto;
     grid-gap: 1rem;
+    max-width: var(--content-width);
     justify-content: center;
 }
 
