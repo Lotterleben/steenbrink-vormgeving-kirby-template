@@ -51,7 +51,7 @@
 }
 
 .album-gallery[data-count="1"] {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .album-gallery[data-count="2"] {
