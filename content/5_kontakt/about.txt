@@ -1,11 +1,30 @@
-Text:
-
-Kontakt<br>Lidwien Steenbrink <br> Alte Schönhauser Strasse 33/34 <br> 10119 Berlin <br> vormgeving@steenbrink.de <br> Telefon: +49 (0)170 96 888 30
+Text: 
 
 ----
 
-Impressum
-Konzeption, Gestaltung: Lidwien Steenbrink. Beratung, Programmierung: LSS
+Address:
+
+Lidwien Steenbrink
+Alte Schönhauser Strasse 33/34
+10119 Berlin
+
+----
+
+Email: vormgeving@steenbrink.de
+
+----
+
+Phone: +49 (0)170 96 888 30
+
+----
+
+Social: 
+
+----
+
+Impressum-konzeption-gestaltung:
+
+Lidwien Steenbrink. Beratung, Programmierung: LSS
 Inhaltliche Verantwortung: Lidwien Steenbrink
 
 Haftungshinweis
