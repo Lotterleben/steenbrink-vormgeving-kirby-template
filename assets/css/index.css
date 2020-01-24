@@ -66,12 +66,11 @@ img {
     display: block;
     margin-bottom: 1.5rem;
     padding: .37rem 0;
-    background: url(../../logos/Steenbrink_1zlg.svg);
-    /*remove alt text*/
-    text-indent: -9999px;
-    width: 20rem;
-    height: .120rem;
-    background-size: contain;
+}
+
+.header .logo img {
+    width: 20em;
+    position: left;
 }
 
 .header {
