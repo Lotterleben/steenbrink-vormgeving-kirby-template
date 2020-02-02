@@ -16,7 +16,6 @@
 
   <div class="layout">
       <header class="intro">
-        <h1>Kontakt</h1>
         <p>
           <?= html::email($page->email()) ?>
           <br>
