@@ -41,7 +41,7 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     margin: 0 auto;
-    grid-gap: 1rem;
+    grid-gap: var(--grid-gap-sz);
     max-width: var(--content-width);
     justify-content: center;
 }
