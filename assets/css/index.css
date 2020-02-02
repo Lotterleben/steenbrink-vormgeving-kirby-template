@@ -54,7 +54,7 @@ img {
     text-transform: uppercase;
     font-size: .875rem;
     letter-spacing: .05em;
-    padding: 0.2rem 0;
+    padding: 0;
     font-weight: 700;
 }
 
@@ -64,24 +64,25 @@ img {
 
 .header .logo {
     display: block;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.85rem;
     padding: .37rem 0;
-    background: url(../../logos/Steenbrink_1zlg.svg);
+    background: url(../../logos/Steenbrink_1zlg.svg) left no-repeat;
     /*remove alt text*/
     text-indent: -9999px;
-    width: 20rem;
-    height: .120rem;
+    width: 25rem;
     background-size: contain;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .menu a {
-    margin: 0 .75rem;
+    margin-right: 0.85rem;
+    margin-bottom: 0.5rem;
 }
 
 .menu a[aria-current] {
@@ -94,7 +95,7 @@ img {
     border-bottom: 2px solid var(--logogruen);
 }
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 65rem) {
     .header .logo {
         margin-bottom: 0;
     }
