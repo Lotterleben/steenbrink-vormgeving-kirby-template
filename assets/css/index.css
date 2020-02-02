@@ -114,18 +114,7 @@ main {
 
 .intro {
     padding: 10vh 0;
-    text-align: center;
-}
-
-.intro h1 {
     text-align: left;
-    position: relative;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    color: 003366;
-    font-weight: 700;
-    font-size: .875rem;
-    z-index: 1;
 }
 
 .intro p {
@@ -143,7 +132,7 @@ main {
 }
 
 .text {
-    line-height: 5em;
+    line-height: 1.4em;
 }
 
 .text p,
