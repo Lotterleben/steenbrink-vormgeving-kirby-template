@@ -1,8 +1,8 @@
 :root {
-    --content-width: 65rem;
-    --grid-gap-sz: 2.5rem;
-    --logogruen:#99CC33;
-    --logoblau:#000033;
+    --content-width: 90rem;
+    --grid-gap-sz: 3rem;
+    --logogruen: #99CC00;
+    --logoblau: #003366;
 }
 
 *,
@@ -59,7 +59,7 @@ img {
 }
 
 .header a:hover {
-    color:var(--logogruen);
+    color: var(--logogruen);
 }
 
 .header .logo {
@@ -211,5 +211,5 @@ main {
 
 .social a:hover {
     background: #000;
-    color: 003366;
+    color: var(--logogruen);
 }
