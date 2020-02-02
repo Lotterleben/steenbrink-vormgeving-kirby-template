@@ -1,4 +1,4 @@
-Text: 
+Text:
 
 ----
 
@@ -17,10 +17,7 @@ Email: vormgeving@steenbrink.de
 Phone: +49 (0)170 96 888 30
 
 ----
-
-Social: 
-
-----
+Text:
 
 Impressum-konzeption-gestaltung:
 
