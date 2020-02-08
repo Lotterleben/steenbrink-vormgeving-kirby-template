@@ -19,17 +19,17 @@
 
 .albums li {
     overflow: hidden;
-    background: #000000;
 }
 
 .albums figure {
     position: relative;
+    background: var(--logoblau);
 }
 
 .albums figcaption {
     vertical-align: top;
     line-height: 1.5em;
-    padding: 1rem;
+    padding-top: 1rem;
     background: #ffffff;
 }
 
