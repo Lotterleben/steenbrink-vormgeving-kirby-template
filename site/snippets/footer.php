@@ -10,16 +10,21 @@
 
   </div>
 
-  <footer class="footer">
-    <a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a>
-
-    <?php if ($about = page('about')): ?>
-    <nav class="social">
-      <?php foreach ($about->social()->toStructure() as $social): ?>
-      <a href="<?= $social->url() ?>"><?= $social->platform() ?></a>
-      <?php endforeach ?>
+  <footer>
+    <!--don't fail silently -->
+    <?php $about = page('kontakt') ?>
+    <nav class="legal">
+      <ul>
+        <li><a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a></li>
+        <li><a href="<?=  $about->url() ?>">Impressum</a></li>
+      </ul>
     </nav>
-    <?php endif ?>
+    <nav class="contact">
+        <ul>
+          <li><a href="mailto:<?= $about->email() ?>"><?= $about->email() ?></a></li>
+          <li><a href="tel:"<?= $about->phone() ?>><?= $about->phone() ?></a></li>
+        </ul>
+    </nav>
   </footer>
 
 </body>

@@ -3,6 +3,7 @@
     --grid-gap-sz: 3rem;
     --logogruen: #99CC00;
     --logoblau: #003366;
+    --textblock-width: calc((var(--content-width) / 3) - var(--grid-gap-sz));
 }
 
 *,
@@ -120,7 +121,7 @@ main {
 .intro p {
     text-align: left;
     /* TODO: flexibly adapt to numbers of coluns?*/
-    width: calc((var(--content-width) / 3) - var(--grid-gap-sz));
+    width: var(--textblock-width);
 }
 
 .tags {
@@ -172,34 +173,25 @@ main {
     width: 100%;
 }
 
-.footer {
+footer {
     padding: 1.5rem 5vw 10vh;
-    text-align: right;
     max-width: var(--content-width);
     margin: 0 auto;
     line-height: 1.5em;
 }
 
-.footer a {
-    display: inline-block;
-    font-size: .875rem;
-}
-
-.footer>a {
-    margin-bottom: 1.5rem;
-    border-top: 2px solid #000;
-    width: 16.5rem;
+footer nav {
     padding-top: .5rem;
 }
 
-.social a {
-    margin: 0 .75rem;
-    padding: .5rem 1rem;
-    border: 2px solid #000;
-    width: 7.5rem;
+footer .contact {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    border-top: 2px solid #000;
+    width: var(--textblock-width);
 }
 
-.social a:hover {
-    background: #000;
-    color: var(--logogruen);
+footer .legal {
+    text-align: right;
+    float: right;
 }
