@@ -11,20 +11,20 @@
   </div>
 
   <footer class="footer">
+    <!--don't fail silently -->
+    <?php $about = page('kontakt') ?>
     <nav class="legal">
       <ul>
         <li><a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a></li>
-        <li><a href="<?= page('kontakt')->url() ?>">Impressum</a></li>
+        <li><a href="<?=  $about->url() ?>">Impressum</a></li>
       </ul>
     </nav>
-    <?php if ($about = page('kontakt')): ?>
-      <nav class="contact">
+    <nav class="contact">
         <ul>
           <li><a href="mailto:<?= $about->email() ?>"><?= $about->email() ?></a></li>
           <li><a href="tel:"<?= $about->phone() ?>><?= $about->phone() ?></a></li>
         </ul>
     </nav>
-    <?php endif ?>
   </footer>
 
 </body>
