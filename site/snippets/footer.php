@@ -14,14 +14,14 @@
     <nav class="legal">
       <ul>
         <li><a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a></li>
-        <li><a href="<?= url() ?>">TODO impressum</a></li>
+        <li><a href="<?= page('kontakt')->url() ?>">Impressum</a></li>
       </ul>
     </nav>
     <?php if ($about = page('kontakt')): ?>
       <nav class="contact">
         <ul>
-          <li><a href="<?= url() ?>"><?= $about->email() ?></a></li>
-          <li><a href="<?= url() ?>"><?= $about->phone() ?></a></li>
+          <li><a href="mailto:<?= $about->email() ?>"><?= $about->email() ?></a></li>
+          <li><a href="tel:"<?= $about->phone() ?>><?= $about->phone() ?></a></li>
         </ul>
     </nav>
     <?php endif ?>
