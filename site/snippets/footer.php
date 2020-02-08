@@ -11,13 +11,18 @@
   </div>
 
   <footer class="footer">
-    <a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a>
-
-    <?php if ($about = page('about')): ?>
-    <nav class="social">
-      <?php foreach ($about->social()->toStructure() as $social): ?>
-      <a href="<?= $social->url() ?>"><?= $social->platform() ?></a>
-      <?php endforeach ?>
+    <nav class="legal">
+      <ul>
+        <li><a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a></li>
+        <li><a href="<?= url() ?>">TODO impressum</a></li>
+      </ul>
+    </nav>
+    <?php if ($about = page('kontakt')): ?>
+      <nav class="contact">
+        <ul>
+          <li><a href="<?= url() ?>"><?= $about->email() ?></a></li>
+          <li><a href="<?= url() ?>"><?= $about->phone() ?></a></li>
+        </ul>
     </nav>
     <?php endif ?>
   </footer>
