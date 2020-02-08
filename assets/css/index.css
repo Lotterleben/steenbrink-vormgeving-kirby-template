@@ -173,25 +173,25 @@ main {
     width: 100%;
 }
 
-.footer {
+footer {
     padding: 1.5rem 5vw 10vh;
     max-width: var(--content-width);
     margin: 0 auto;
     line-height: 1.5em;
 }
 
-.footer nav {
+footer nav {
     padding-top: .5rem;
 }
 
-.contact {
+footer .contact {
     text-align: left;
     margin-bottom: 1.5rem;
     border-top: 2px solid #000;
     width: var(--textblock-width);
 }
 
-.legal {
+footer .legal {
     text-align: right;
     float: right;
 }

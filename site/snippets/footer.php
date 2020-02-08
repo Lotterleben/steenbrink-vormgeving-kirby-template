@@ -10,7 +10,7 @@
 
   </div>
 
-  <footer class="footer">
+  <footer>
     <!--don't fail silently -->
     <?php $about = page('kontakt') ?>
     <nav class="legal">
