@@ -16,18 +16,24 @@
 
   <div class="layout">
       <header class="intro">
-        <p>
-          <?= html::email($page->email()) ?>
-          <br>
-          <br>
-          <?= html::tel($page->phone()) ?>
-          <br>
-          <br>
+        <h3> Impressum </h3>
           <?= $page->address()->kt() ?>
-          <br>
-          <br>
+
+        <h3> Kontakt </h3>
+          <!-- since this doesn't come from a textarea,
+            we need to manually wrap it into a paragraph -->
+          <p>
+            <?= html::email($page->email()) ?>
+            <br>
+            <?= html::tel($page->phone()) ?>
+          </p>
+
+        <h3> Redaktionelle Verantwortung </h3>
           <?= $page->text()->kt() ?>
-        </p>
+
+        <h3> Haftungshinweis </h3>
+          <?= $page->haftungshinweis()->kt() ?>
+
       </header>
 
   </div>

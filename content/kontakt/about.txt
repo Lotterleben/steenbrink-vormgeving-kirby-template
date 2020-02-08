@@ -1,4 +1,4 @@
-Text:
+Title: Impressum
 
 ----
 
@@ -17,12 +17,13 @@ Email: vormgeving@steenbrink.de
 Phone: +49 (0)170 96 888 30
 
 ----
+
 Text:
 
-Impressum-konzeption-gestaltung:
-
-Lidwien Steenbrink. Beratung, Programmierung: LSS
+Impressum-Konzeption-Gestaltung: Lidwien Steenbrink
+Beratung, Programmierung: (link: https://github.com/Lotterleben text: Lotte Steenbrink)
 Inhaltliche Verantwortung: Lidwien Steenbrink
 
-Haftungshinweis
-Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+----
+
+Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.

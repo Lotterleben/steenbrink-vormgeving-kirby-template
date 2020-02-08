@@ -22,34 +22,24 @@ options:
 # More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
 columns:
   - width: 1/2
-    fields:
-      text:
-        label: Text
-        type: textarea
-        size: huge
-
-  - width: 1/2
     # Kirby has many different field types, from simple text fields to the more complex structure field that contains subfields
     # All available field types: https://getkirby.com/docs/reference/panel/fields
     fields:
       address:
-        label: Address
+        label: Adresse
         type: textarea
       email:
-        label: Email
+        label: E-Mail
         type: email
       phone:
-        label: Phone
+        label: Telefon
         type: tel
-      social:
-        label: On the web
-        type: structure
-        fields:
-          platform:
-            label: Platform
-            type: text
-            width: 1/2
-          url:
-            label: URL
-            type: url
-            width: 1/2
+
+  - width: 1/2
+    fields:
+      text:
+        label: Redaktionelle Verantwortung
+        type: textarea
+      haftungshinweis:
+        label: Haftungshinweis
+        type: textarea

@@ -122,6 +122,12 @@ main {
     text-align: left;
     /* TODO: flexibly adapt to numbers of coluns?*/
     width: var(--textblock-width);
+    margin-bottom: 1.5em;
+}
+
+.intro h3 {
+    font-size: .875rem;
+    margin-bottom: 1.5em;
 }
 
 .tags {
