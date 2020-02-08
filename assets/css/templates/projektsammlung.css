@@ -19,51 +19,20 @@
 
 .albums li {
     overflow: hidden;
-    background: #000;
 }
 
 .albums figure {
     position: relative;
-    padding-bottom: 140%;
+    background: var(--logoblau);
 }
 
 .albums figcaption {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: #fff;
-    opacity: 0;
-    background: rgba(255, 255, 255, .3);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    vertical-align: top;
     line-height: 1.5em;
-    padding: 1rem;
-    font-size: .875rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: .125em;
-    transition: 0.3s;
+    padding-top: 1rem;
+    background: #ffffff;
 }
 
-figure:hover figcaption {
-    opacity: 1;
-}
-
-.albums img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    transition: all .3s;
-}
-
-.albums img:hover {
-    opacity: .2;
+.albums figure img:hover {
+    opacity: 0.5;
 }
