@@ -25,6 +25,7 @@ columns:
         layout: cards
         template: image
         info: "{{ file.dimensions }}"
+        text: "{{ file.caption }}"
         image:
           ratio: 5/4
           cover: true
