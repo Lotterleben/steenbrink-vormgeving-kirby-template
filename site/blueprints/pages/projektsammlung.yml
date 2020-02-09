@@ -4,15 +4,25 @@ title: Projekt
 # Each page can have an icon that is shown in page listings when no preview image is available.
 icon: 🖼
 
-# Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
-# They differ in their page status and the headline.
-sections:
-  drafts:
-    extends: sections/albums
-    headline: Entwürfe
-    status: draft
+columns:
+  - width: 2/3
+    # Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
+    # They differ in their page status and the headline.
+    sections:
+      content:
+        type: fields
+        fields:
+          text:
+            label: Text
+            type: textarea
+            size: small
 
-  listed:
-    extends: sections/albums
-    headline: Veröffentlichte Seiten
-    status: listed
+      listed:
+        extends: sections/albums
+        headline: Veröffentlichte Seiten
+        status: listed
+
+      drafts:
+        extends: sections/albums
+        headline: Entwürfe
+        status: draft

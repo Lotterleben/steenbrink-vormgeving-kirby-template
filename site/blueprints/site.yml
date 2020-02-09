@@ -20,7 +20,7 @@ columns:
       # Using the `create` option, we limit the type of page that can be created when a new page is created
       # Note that the `sandbox` page and the `error` page that also exist in the content folder but use different blueprints thus do not show up in the list
       # Since the error page's blueprint is set to `read: false`, it wouldn't show up here even if you added the error blueprint to the templates list
-      pages:
+      textpages:
         type: pages
         headline: Textseiten
         create: default
@@ -29,16 +29,9 @@ columns:
           - home
           - default
 
-      # section for the subpages of the `projektsammlung` page in card layout
-      # reuses the pages section defined in `/site/blueprints/sections/albums.yml`
-      ausstellungen:
-        extends: sections/albums
-        headline: Ausstellungen
-        # the name of the page's folder in content/, minus the <number>_ prefix (if any)
-        parent: kirby.page("ausstellungen")
-
-
-      konzerte:
-        extends: sections/albums
-        headline: Konzerte
-        parent: kirby.page("konzerte")
+      albums:
+        type: pages
+        headline: Alben
+        create: default
+        templates:
+          - projektsammlung

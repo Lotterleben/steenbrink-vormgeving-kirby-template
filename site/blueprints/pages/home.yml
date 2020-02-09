@@ -10,18 +10,10 @@ icon: 🏠
 options:
   changeStatus: false
 
-# Here we define an info section and a pages section (`projektsammlung`)
-sections:
-  info:
-    headline: Info
-    type: info
-    text: All content for the homepage is being pulled from the projektsammlung page.
-
-# The projektsammlung section extends a pages section defined in the `/site/blueprints/section/album.yml` blueprint
-# More about reusing and extending sections: https://getkirby.com/docs/guide/blueprints/extending-blueprints#reusing-and-extending-sectionss
-  projektsammlung:
-    headline: Projektsammlung
-    extends: sections/albums
-    status: listed
-
-
+columns:
+  - width: 2/3
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: medium
