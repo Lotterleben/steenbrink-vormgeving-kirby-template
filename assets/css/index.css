@@ -1,9 +1,9 @@
 :root {
-    --content-width: 90rem;
+    --content-width: 75rem;
     --grid-gap-sz: 3rem;
     --logogruen: #99CC00;
     --logoblau: #003366;
-    --textblock-width: calc((var(--content-width) / 3) - var(--grid-gap-sz));
+    --textblock-width: calc((var(--content-width) / 1.8) + var(--grid-gap-sz));
 }
 
 *,
