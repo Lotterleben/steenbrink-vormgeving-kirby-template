@@ -24,6 +24,7 @@
           <a href="<?= $image->link()->or($image->url()) ?>">
             <?= $image->crop(500, 700) ?>
           </a>
+          <figcaption><?= $image->caption() ?></figcaption>
         </figure>
       </li>
       <?php endforeach ?>
