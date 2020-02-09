@@ -186,7 +186,6 @@ main {
 footer {
     padding: 1.5rem 5vw 10vh;
     max-width: var(--content-width);
-    margin: 0 auto;
     line-height: 1.5em;
 }
 
