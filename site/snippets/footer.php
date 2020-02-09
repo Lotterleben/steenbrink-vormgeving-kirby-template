@@ -13,17 +13,15 @@
   <footer>
     <!--don't fail silently -->
     <?php $about = page('kontakt') ?>
+
+    <a href="mailto:<?= $about->email() ?>"><?= $about->email() ?></a>
+
     <nav class="legal">
       <ul>
+        <li><a href="tel:"<?= $about->phone() ?>><?= $about->phone() ?></a></li>
         <li><a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a></li>
         <li><a href="<?=  $about->url() ?>">Impressum</a></li>
       </ul>
-    </nav>
-    <nav class="contact">
-        <ul>
-          <li><a href="mailto:<?= $about->email() ?>"><?= $about->email() ?></a></li>
-          <li><a href="tel:"<?= $about->phone() ?>><?= $about->phone() ?></a></li>
-        </ul>
     </nav>
   </footer>
 

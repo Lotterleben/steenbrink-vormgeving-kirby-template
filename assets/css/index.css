@@ -190,18 +190,13 @@ footer {
     line-height: 1.5em;
 }
 
+footer>a {
+    line-height: 2.5;
+}
+
 footer nav {
     padding-top: .5rem;
-}
-
-footer .contact {
     text-align: left;
-    margin-bottom: 1.5rem;
     border-top: 2px solid #000;
     width: var(--textblock-width);
-}
-
-footer .legal {
-    text-align: right;
-    float: right;
 }
