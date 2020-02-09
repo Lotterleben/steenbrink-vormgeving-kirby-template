@@ -23,13 +23,13 @@
 
 .albums figure {
     position: relative;
-    background: var(--logoblau);
+    background: #000000;
 }
 
 .albums figcaption {
     vertical-align: top;
-    line-height: 1.5em;
-    padding-top: 1rem;
+    line-height: 1.2em;
+    padding-top: 0.3rem;
     background: #ffffff;
 }
 
