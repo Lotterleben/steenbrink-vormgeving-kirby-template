@@ -1,5 +1,8 @@
-Title: Guten Tag,
+Title: Startseite
 
 ----
 
-Text: wir sind ein kleines feines Gestaltungsbüro für visuelle Kommunikation in Berlin.<br><br> Vorwiegend sind wir im kulturellen Bereich tätig, wie z.B. für Museen, Verlage, Chöre und Orchester. <br> Bei den Ausstellungen gibt es oft Kooperationen, z.B.  mit Architekten.
+Text:
+
+Guten Tag,
+wir sind ein kleines feines Gestaltungsbüro für visuelle Kommunikation in Berlin.<br><br> Vorwiegend sind wir im kulturellen Bereich tätig, wie z.B. für Museen, Verlage, Chöre und Orchester. <br> Bei den Ausstellungen gibt es oft Kooperationen, z.B.  mit Architekten.
