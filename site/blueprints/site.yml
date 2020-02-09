@@ -37,8 +37,17 @@ columns:
         # the name of the page's folder in content/, minus the <number>_ prefix (if any)
         parent: kirby.page("ausstellungen")
 
+      verlage:
+        extends: sections/albums
+        headline: Verlage
+        parent: kirby.page("verlage")
 
       konzerte:
         extends: sections/albums
         headline: Konzerte
         parent: kirby.page("konzerte")
+
+      diverses:
+        extends: sections/albums
+        headline: Diverses
+        parent: kirby.page("diverses")
