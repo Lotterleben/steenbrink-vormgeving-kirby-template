@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 1.7;
+}
+
 strong,
 b {
     font-weight: 500;
